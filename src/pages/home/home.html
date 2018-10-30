@@ -9,3 +9,11 @@
         <button ion-fab color="red" [navPush]="novochamado" > <ion-icon name="add"></ion-icon></button>
       </ion-fab>
 </ion-content>
+
+<ion-content padding>
+    <img src="{{ photo }}" />
+  </ion-content>
+   
+  <ion-footer padding>
+    <button ion-button large block (click)="takePicture()">Câmera</button>
+  </ion-footer>

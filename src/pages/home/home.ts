@@ -8,10 +8,10 @@ import { NovoChamadoPage } from '../novo-chamado/novo-chamado'
 })
 export class HomePage {
 
+  novochamado = NovoChamadoPage;
+  photo: string = '';
+
   constructor(public navCtrl: NavController) {
 
   }
-
-  novochamado = NovoChamadoPage;
-
-}
+  

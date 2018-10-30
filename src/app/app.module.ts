@@ -10,6 +10,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { NovoChamadoPage } from '../pages/novo-chamado/novo-chamado';
+import { Camera } from '@ionic-native/camera'
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { NovoChamadoPage } from '../pages/novo-chamado/novo-chamado';
   providers: [
     StatusBar,
     SplashScreen,
+    Camera,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
