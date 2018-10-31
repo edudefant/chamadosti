@@ -1,5 +1,7 @@
 {
-  "name": "blank",
-  "integrations": {},
+  "name": "chamadosti",
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
